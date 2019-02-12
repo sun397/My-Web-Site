@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style2.css">
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <title>my port</title>
+  </head>
+
+  <body>
+
+    <header style="background-color:#060036;">
+      <!-- https://getbootstrap.com/docs/4.1/components/navbar/ -->
+      <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <a href="profiel.html"><h5 class="text-white h8">Profiel</h5></a>
+          <a href="work.html"><h5 class="text-white h8">Work</h5></a>
+          <a href="contact.html"><h5 class="text-white h8">Contact</h5></a>
+          <!-- <span class="text-muted">portfolio</span> -->
+        </div>
+      </div>
+      <nav class="navbar navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <div class="home-button">
+        <a href="my2.html" class="btn-square">home</a>
+      </div>
+    </header>
+
+    <section style="background-color:#060036;">
+      <div class="profiel">
+        <div class="title-p">
+          Contact
+        </div>
+        <div class="text-p">
+          <h1>お問い合わせフォーム</h1>
+        </div>
+        <form class="form-class" action="index.html" method="post">
+          <p>
+          お問い合わせ：<br>
+          <br>
+          <textarea name="kanso" rows="4" cols="40"></textarea>
+          </p>
+          <p>
+          <input type="submit" value="送信">   <input type="reset" value="リセット">
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </body>
+
+  <footer style="background-color:#060036;">
+    <div class="container">
+      <h1>☀️ asahi ogata page</h1>
+    </div>
+  </footer>
+
+</html>
